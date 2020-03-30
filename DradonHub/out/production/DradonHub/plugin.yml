@@ -1,0 +1,29 @@
+name: DradonHub
+version: 1.0
+author: Krispy
+main: me.krispin.hub.Hub
+description: Hub core made by Shipsterns
+depend: [PermissionsEx]
+
+commands:
+  hubitems:
+    usage: /<command>
+    description: gives player default hub items
+  fly:
+    usage: /<command>
+    description: enable/disable fly
+  dradonhub:
+    usage: /<command>
+    description: plugin made by shipsterns
+  setspawn:
+    usage: /<command>
+    description: set server spawn
+  setpin:
+    usage: /<command>
+    description: setpin on firstjoin
+  login:
+    usage: /<command>
+    description: required on join if player has permission or is op
+  fly:
+    usage: /<command>
+    description: disable and enable flight

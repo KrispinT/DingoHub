@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DingoHub" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bebcc1e5-62fe-4d0f-a306-0dc5422aee9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YYmaVmPT2G8yOetUeBemFnJ2Hq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="dradonhub" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GitHub/DingoHub/DradonHub" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bebcc1e5-62fe-4d0f-a306-0dc5422aee9d" name="Default Changelist" comment="" />
+      <created>1583127966120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583127966120</updated>
+      <workItem from="1583127969330" duration="1806000" />
+      <workItem from="1583144725261" duration="1237000" />
+      <workItem from="1583146758500" duration="1628000" />
+      <workItem from="1583210599934" duration="4673000" />
+      <workItem from="1583224055127" duration="578000" />
+      <workItem from="1583224657467" duration="2131000" />
+      <workItem from="1583229035561" duration="5148000" />
+      <workItem from="1583235249578" duration="2330000" />
+      <workItem from="1583400775285" duration="3705000" />
+      <workItem from="1583459013285" duration="1521000" />
+      <workItem from="1583543862832" duration="77000" />
+      <workItem from="1583545025588" duration="28000" />
+      <workItem from="1583891439397" duration="112000" />
+      <workItem from="1584064754657" duration="886000" />
+      <workItem from="1584096233880" duration="7055000" />
+      <workItem from="1584161457458" duration="1388000" />
+      <workItem from="1584162865037" duration="1388000" />
+      <workItem from="1584166772987" duration="16000" />
+      <workItem from="1584167031006" duration="127000" />
+      <workItem from="1584242476469" duration="216000" />
+      <workItem from="1584246396115" duration="611000" />
+      <workItem from="1584270634667" duration="613000" />
+      <workItem from="1584322028933" duration="1040000" />
+      <workItem from="1584328319440" duration="279000" />
+      <workItem from="1585021664236" duration="602000" />
+      <workItem from="1585045067344" duration="229000" />
+      <workItem from="1585045311907" duration="75000" />
+      <workItem from="1585045631665" duration="6259000" />
+      <workItem from="1585098587697" duration="2980000" />
+      <workItem from="1585124738967" duration="10755000" />
+      <workItem from="1585188896208" duration="2210000" />
+      <workItem from="1585219768204" duration="3255000" />
+      <workItem from="1585302011587" duration="10355000" />
+      <workItem from="1585312823529" duration="454000" />
+      <workItem from="1585366605479" duration="23000" />
+      <workItem from="1585369439904" duration="488000" />
+      <workItem from="1585404975563" duration="640000" />
+      <workItem from="1585407425640" duration="886000" />
+      <workItem from="1585476106297" duration="4394000" />
+      <workItem from="1585484602825" duration="2040000" />
+      <workItem from="1585556764648" duration="10713000" />
+      <workItem from="1585605790423" duration="1682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="645" y="203" key="#Plugins" timestamp="1585099229587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="203" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1585099229587" />
+    <state x="782" y="340" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583225702801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="340" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583225702801" />
+    <state x="528" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1585559553262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="528" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585559553262" />
+    <state x="943" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585484630485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="943" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585484630485" />
+    <state x="1079" y="303" key="#com.intellij.tools.ToolEditorDialog" timestamp="1585045200347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1079" y="303" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585045200347" />
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585607549305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585607549305" />
+    <state x="812" y="115" key="SettingsEditor" timestamp="1585607575184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585607575184" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583146761462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583146761462" />
+    <state x="328" y="132" width="607" height="804" key="find.popup" timestamp="1583146082690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="328" y="132" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583146082690" />
+    <state x="445" y="226" key="new project wizard" timestamp="1584065041817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="226" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584065041817" />
+    <state x="665" y="250" key="run.anything.popup" timestamp="1583129545585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="250" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583129545585" />
+    <state x="302" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1585557988599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="302" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585557988599" />
+  </component>
+</project>

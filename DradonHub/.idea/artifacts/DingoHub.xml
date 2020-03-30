@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DingoHub">
+    <output-path>$USER_HOME$/Desktop/DingoMC/Lobby/plugins</output-path>
+    <root id="archive" name="DingoHub.jar">
+      <element id="module-output" name="DingoHub" />
+    </root>
+  </artifact>
+</component>
