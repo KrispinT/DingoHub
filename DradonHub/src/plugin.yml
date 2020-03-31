@@ -30,3 +30,6 @@ commands:
   spawn:
     usage: /<command>
     description: teleports player to spawn
+  setnpc:
+    usage: /<command>
+    description: set npcs location

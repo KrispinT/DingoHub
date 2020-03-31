@@ -5,6 +5,7 @@ import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import me.krispin.hub.commands.*;
 import me.krispin.hub.inventories.SelectorInventory;
+import me.krispin.hub.npc.NPCs;
 import me.krispin.hub.scoreboard.DingoScoreboard;
 import me.krispin.hub.staffpin.PinCommand;
 import me.krispin.hub.staffpin.SetPinCommand;
@@ -62,6 +63,7 @@ public class Hub extends JavaPlugin implements PluginMessageListener {
         Bukkit.getServer().getPluginManager().registerEvents(new Listeners(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new DingoScoreboard(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new StaffPinListeners(), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new NPCs(), this);
 
         getCommand("hubitems").setExecutor(new HubItemsCommand());
         getCommand("setspawn").setExecutor(new SetSpawnCommand());
@@ -70,6 +72,7 @@ public class Hub extends JavaPlugin implements PluginMessageListener {
         getCommand("fly").setExecutor(new FlyCommand());
         getCommand("unban").setExecutor(new UnbanCommand());
         getCommand("spawn").setExecutor(new SpawnCommand());
+        getCommand("setnpc").setExecutor(new SetNPCCommand());
 
         Bukkit.getServer().getScheduler().runTaskTimerAsynchronously(this, () -> Hub.getMain().getPinRequiredCheck().clear(), 5L, 216000L);
     }

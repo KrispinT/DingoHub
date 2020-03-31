@@ -38,6 +38,11 @@ public class PinCommand implements CommandExecutor {
 
                             int pinSet = ConfigManager.getManager().getUserData().getInt("Staff_Pin." + p.getUniqueId());
 
+                            if(!Hub.getMain().getPinNeeded().contains(p.getUniqueId())){
+                               p.sendMessage(Utils.color("&cYou are not required to login!"));
+                               return true;
+                            }
+
                             if (pinSet == pin) {
                                 Hub.getMain().getPinNeeded().remove(p.getUniqueId());
                                 p.sendMessage(Utils.color("&aSuccessfully logged in!"));
