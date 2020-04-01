@@ -1,7 +1,9 @@
 package me.krispin.hub.utils;
 
 import com.mysql.jdbc.NonRegisteringDriver;
+import com.mysql.jdbc.Util;
 import com.sun.org.apache.xpath.internal.objects.XString;
+import net.minecraft.server.v1_7_R4.Item;
 import net.minecraft.server.v1_7_R4.NBTTagCompound;
 import net.minecraft.server.v1_7_R4.NBTTagList;
 import org.bukkit.ChatColor;
@@ -61,6 +63,47 @@ public class ItemUtils {
         m.setLore(lore);
         i.setItemMeta(m);
         return addGlow(i);
+    }
+
+    public static ItemStack getSpeedOff(){
+        ItemStack i = new ItemStack(Material.SUGAR);
+        ItemMeta m = i.getItemMeta();
+        m.setDisplayName(Utils.color("&eSpeed &c(Off)"));
+        List<String> lore = new ArrayList<>();
+        lore.add(Utils.color("&7Enable or disable speed!"));
+        m.setLore(lore);
+        i.setItemMeta(m);
+        return i;
+    }
+
+    public static ItemStack getSpeedOn(){
+        ItemStack i = new ItemStack(Material.SUGAR);
+        ItemMeta m = i.getItemMeta();
+        m.setDisplayName(Utils.color("&eSpeed &a(On)"));
+        List<String> lore = new ArrayList<>();
+        lore.add(Utils.color("&7Enable or disable speed!"));
+        m.setLore(lore);
+        i.setItemMeta(m);
+        return addGlow(i);
+    }
+
+    public static ItemStack getEffectsTrails(){
+        ItemStack i = new ItemStack(Material.ENDER_CHEST);
+        ItemMeta m = i.getItemMeta();
+        m.setDisplayName(Utils.color("&bCosmetics"));
+        List<String> lore = new ArrayList<>();
+        lore.add(Utils.color("&7Donator Effects and Trails!"));
+        m.setLore(lore);
+        i.setItemMeta(m);
+        return i;
+    }
+
+    public static ItemStack getEnderButt(){
+        ItemStack i = new ItemStack(Material.ENDER_PEARL);
+        ItemMeta m = i.getItemMeta();
+        m.setDisplayName(Utils.color("&6EnderButt"));
+        i.setItemMeta(m);
+        return i;
     }
 
     public static List<String> teamsLore = new ArrayList<>();

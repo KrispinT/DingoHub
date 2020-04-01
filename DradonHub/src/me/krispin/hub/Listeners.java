@@ -17,6 +17,8 @@ import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.*;
 import org.bukkit.event.weather.WeatherChangeEvent;
+import ru.tehkode.permissions.PermissionUser;
+import ru.tehkode.permissions.bukkit.PermissionsEx;
 
 
 public class Listeners implements Listener {
@@ -54,8 +56,11 @@ public class Listeners implements Listener {
 
         p.getInventory().clear();
 
+        p.getInventory().setItem(0, ItemUtils.getEffectsTrails());
+        p.getInventory().setItem(1, ItemUtils.getEnderButt());
         p.getInventory().setItem(4, ItemUtils.getSelector());
         p.getInventory().setItem(8, ItemUtils.getVanishPlayersOn());
+        p.getInventory().setItem(7, ItemUtils.getSpeedOff());
     }
 
     @EventHandler
@@ -149,14 +154,15 @@ public class Listeners implements Listener {
 
         //toggle players
         if(e.getAction() == Action.RIGHT_CLICK_AIR || e.getAction() == Action.RIGHT_CLICK_BLOCK){
-            if(p.getItemInHand().isSimilar(ItemUtils.getVanishPlayersOn())){
-                for(Player pl : Bukkit.getOnlinePlayers()){
+            if(p.getItemInHand().isSimilar(ItemUtils.getVanishPlayersOn())) {
+                for (Player pl : Bukkit.getOnlinePlayers()) {
                     p.hidePlayer(pl);
                 }
                 p.getInventory().setItem(8, ItemUtils.getVanishPlayersOff());
                 p.sendMessage(Utils.color("&aYou have hidden all players!"));
                 return;
-            }else if(p.getItemInHand().isSimilar(ItemUtils.getVanishPlayersOff())){
+            }
+            if(p.getItemInHand().isSimilar(ItemUtils.getVanishPlayersOff())){
                     for(Player pl : Bukkit.getOnlinePlayers()){
                         p.showPlayer(pl);
                     }
@@ -164,10 +170,24 @@ public class Listeners implements Listener {
                     p.sendMessage(Utils.color("&aYou have unhidden all players!"));
                     return;
 
-            }else{
+            }
+        }
+
+        //toggle player speed
+        if(e.getAction() == Action.RIGHT_CLICK_BLOCK || e.getAction() == Action.RIGHT_CLICK_AIR){
+            if(p.getItemInHand().isSimilar(ItemUtils.getSpeedOff())) {
+                p.setWalkSpeed(0.6F);
+                p.getInventory().setItem(7, ItemUtils.getSpeedOn());
+                return;
+            }
+             if (p.getItemInHand().isSimilar(ItemUtils.getSpeedOn())){
+                p.setWalkSpeed(0.2F);
+                p.getInventory().setItem(7, ItemUtils.getSpeedOff());
                 return;
             }
         }
+
+
     }
 
     //drop items
@@ -226,6 +246,15 @@ public class Listeners implements Listener {
     @EventHandler
     public void disableChat(AsyncPlayerChatEvent e){
         final Player p = e.getPlayer();
+
+        //set chat format
+        PermissionUser user = PermissionsEx.getUser(p);
+        String prefix = user.getPrefix();
+        String pName = p.getDisplayName();
+        String msg = e.getMessage();
+
+        e.setFormat(Utils.color(prefix + pName + " &8»&r " + msg));
+
         if(!p.hasPermission("dingohub.staff")){
             e.setCancelled(true);
         }
